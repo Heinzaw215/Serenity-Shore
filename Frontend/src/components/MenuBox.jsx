@@ -1,38 +1,20 @@
-const MenuBox = () => {
-  const MenuList = [
-    {
-      name: "Espresso",
-      description: "A coffee",
-      price: "0.99",
-    },
-    {
-      name: "Espresso",
-      description: "A coffee",
-      price: "0.99",
-    },
-    {
-      name: "Espresso",
-      description: "A coffee",
-      price: "0.99",
-    },
-    {
-      name: "Espresso",
-      description: "A coffee",
-      price: "0.99",
-    },
-  ];
+import MenuList from "../data/menuList";
 
+const MenuBox = () => {
   return (
     <>
-      {MenuList.map(({ name, description, price }) => (
+      {MenuList.map(({ name, description, price, image, image_alt }) => (
         <>
+          <img src={image} alt={image_alt} />
           <h3> {name} </h3>
-          <p>{description}</p>
-          <p>Price: { price }MMK</p>
+          <p>
+            {description} <br />
+            Price: <b>{price} MMK</b>
+          </p>
         </>
       ))}
     </>
-  )
-}
+  );
+};
 
 export default MenuBox;

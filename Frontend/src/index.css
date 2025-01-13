@@ -20,6 +20,7 @@ body {
     box-sizing: border-box;
     background-color: var(--bg-primary-color);
     font-family: "Delius", serif;
+    overflow-x: hidden;
 }
 
 .container {
