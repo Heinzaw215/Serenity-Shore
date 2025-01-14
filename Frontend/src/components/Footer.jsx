@@ -1,14 +1,20 @@
 import { Link } from 'react-router-dom';
-import './Footer.css'
+import '../css/Footer.css'
 
 const Footer = () => {
   return (
     <footer className='footer' aria-label="footer">
       Serenity Shore &copy; Copyright <time dateTime="2024">2024</time>
       <div className="help">
-        <Link to="/help"><i className="fa-help"></i>Help</Link>
-        <Link to="/policy">Policy</Link>
-        <Link to="/about-us">About us</Link>
+        <Link to="/help">
+          <i className="fa fa-help"></i>Help
+        </Link>
+        <Link to="/policy">
+          <i className=''></i>Policy
+        </Link>
+        <Link to="/about-us">
+          About us
+        </Link>
       </div>
       <div className="social-media-link">
         <a href="https://www.facebook.com" target="_blank">

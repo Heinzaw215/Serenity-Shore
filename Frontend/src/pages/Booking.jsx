@@ -1,4 +1,4 @@
-import { Header, NavBar } from "../components";
+import { Footer, Header, NavBar, Order } from "../components";
 
 const Booking = () => {
   return (
@@ -6,6 +6,8 @@ const Booking = () => {
       <Header />
       <NavBar />
       <h1>Book a table</h1>
+      <Order />
+      <Footer />
     </>
   );
 };

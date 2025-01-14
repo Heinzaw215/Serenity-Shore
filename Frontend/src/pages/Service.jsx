@@ -1,4 +1,4 @@
-import { Header, NavBar } from '../components'
+import { Footer, Header, NavBar } from '../components'
 
 const Service = () => {
   return (
@@ -6,6 +6,7 @@ const Service = () => {
       <Header />
       <NavBar />
       <h1>Service</h1>
+      <Footer />
     </>
   )
 }

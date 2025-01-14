@@ -1,4 +1,4 @@
-import { NavBar, MenuBox, Header } from '../components'
+import { NavBar, MenuBox, Header, Footer } from '../components'
 
 const Menu = () => {
   return (
@@ -7,6 +7,7 @@ const Menu = () => {
       <NavBar />
       <h1>Menu</h1>
       <MenuBox />
+      <Footer />
     </>
   )
 }

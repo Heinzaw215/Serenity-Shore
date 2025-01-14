@@ -1,10 +1,13 @@
-const Booking = () => {
+const Order = () => {
+  const SubmitForm = () => {
+    console.log("Form Submitted.")
+  }
   return (
     <section id="booking-form">
       <h2>Add Booking</h2>
       <form id="add-form">
         <label htmlFor="room">Room Number:</label>
-        <input type="number" id="room" required />
+        <input type="number" id="room" placeholder="Enter the number" required />
         <br />
         <br />
 
@@ -18,10 +21,10 @@ const Booking = () => {
         <br />
         <br />
 
-        <button type="submit">Add Booking</button>
+        <button type="submit" onClick={SubmitForm}>Add Booking</button>
       </form>
     </section>
   );
 }
 
-export default Booking;
+export default Order;

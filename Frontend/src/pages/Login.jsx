@@ -1,11 +1,11 @@
-import { Booking, NavBar } from "../components";
+import { LoginForm, NavBar } from "../components";
 
 const Login = () => {
   return (
     <>
       <NavBar />
       Login Page
-      <Booking />
+      <LoginForm />
     </>
   );
 };

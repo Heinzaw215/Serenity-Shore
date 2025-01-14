@@ -1,24 +1,34 @@
 [
-    {
-      "image": "https://placeholder.com/150",
-      "image_alt": "Starbucks",
-      "name": "Espresso",
-      "description": "A coffee",
-      "price": "0.99"
-    },
-    {
-      "name": "Espresso",
-      "description": "A coffee",
-      "price": "0.99"
-    },
-    {
-      "name": "Espresso",
-      "description": "A coffee",
-      "price": "0.99"
-    },
-    {
-      "name": "Espresso",
-      "description": "A coffee",
-      "price": "0.99"
-    }
-  ]
+  {
+    "id": "1",
+    "image": "https://www.placeholder.com/150",
+    "image_alt": "Starbucks",
+    "name": "Espresso",
+    "description": "A coffee",
+    "price": "0.99"
+  },
+  {
+    "id": "2",
+    "image": "https://www.placeholder.com/150",
+    "image_alt": "Starbucks",
+    "name": "Espresso",
+    "description": "A coffee",
+    "price": "0.99"
+  },
+  {
+    "id": "3",
+    "image": "https://www.placeholder.com/150",
+    "image_alt": "Starbucks",
+    "name": "Espresso",
+    "description": "A coffee",
+    "price": "0.99"
+  },
+  {
+    "id": "4",
+    "image": "https://www.placeholder.com/150",
+    "image_alt": "Starbucks",
+    "name": "Espresso",
+    "description": "A coffee",
+    "price": "0.99"
+  }
+]
