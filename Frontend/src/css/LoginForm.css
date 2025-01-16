@@ -1,3 +1,8 @@
-form {#fff
+form {
   color: #444;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
 }
+

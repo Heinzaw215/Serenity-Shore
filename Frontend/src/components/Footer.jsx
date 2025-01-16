@@ -7,10 +7,7 @@ const Footer = () => {
       Serenity Shore &copy; Copyright <time dateTime="2024">2024</time>
       <div className="help">
         <Link to="/help">
-          <i className="fa fa-help"></i>Help
-        </Link>
-        <Link to="/policy">
-          <i className=''></i>Policy
+          <i className="fa fa-help"></i>Help & Policy
         </Link>
         <Link to="/about-us">
           About us
