@@ -1,0 +1,31 @@
+.aside {
+  background-color: var(--bg-container-color);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.aside-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.aside-item {
+  margin-bottom: 10px;
+}
+
+.aside-link {
+  color: var(--text-color);
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.aside-link:hover,
+.aside-link.active {
+  background-color: var(--bg-secondary-color-hover);
+  color: var(--text-color-hover);
+}

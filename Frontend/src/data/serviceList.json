@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Spa",
+    "description": "Relax and rejuvenate with our luxurious spa treatments.",
+    "image": "https://via.placeholder.com/150",
+    "image_alt": "Spa"
+  },
+  {
+    "id": 2,
+    "name": "Gym",
+    "description": "Stay fit and healthy with our fully equipped gym.",
+    "image": "https://via.placeholder.com/150",
+    "image_alt": "Gym"
+  },
+  {
+    "id": 3,
+    "name": "Dining",
+    "description": "Enjoy gourmet dining at our on-site restaurant.",
+    "image": "https://via.placeholder.com/150",
+    "image_alt": "Dining"
+  }
+]

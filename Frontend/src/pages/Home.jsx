@@ -1,4 +1,4 @@
-import { NavBar, Footer, Main, Header } from "../components";
+import { NavBar, Footer, Main, Header, Aside } from "../components";
 
 const Home = () => {
 
@@ -6,8 +6,10 @@ const Home = () => {
     <>
       <Header />
       <NavBar />
+      
       <h1>Welcome to our Hotel.</h1>
       <Main />
+      <Aside />
       <Footer />
     </>
   );

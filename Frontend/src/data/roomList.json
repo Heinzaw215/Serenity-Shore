@@ -1,7 +1,26 @@
 [
   {
-    "name": "Single Bed Room",
-    "Description": "Room with single bedroom.",
-    "price": "30,000"
+    "id": 1,
+    "name": "Deluxe Room",
+    "description": "A spacious room with a king-sized bed, ensuite bathroom, and a beautiful view.",
+    "price": 150,
+    "image": "https://via.placeholder.com/150",
+    "image_alt": "Deluxe Room"
+  },
+  {
+    "id": 2,
+    "name": "Standard Room",
+    "description": "A comfortable room with a queen-sized bed and all the basic amenities.",
+    "price": 100,
+    "image": "https://via.placeholder.com/150",
+    "image_alt": "Standard Room"
+  },
+  {
+    "id": 3,
+    "name": "Suite",
+    "description": "A luxurious suite with a separate living area, bedroom, and a stunning view.",
+    "price": 250,
+    "image": "https://via.placeholder.com/150",
+    "image_alt": "Suite"
   }
 ]

@@ -1,4 +1,4 @@
-import '../css/Order.css'
+import "../css/Order.css";
 
 const Order = () => {
   const SubmitForm = () => {
@@ -7,23 +7,25 @@ const Order = () => {
   return (
     <section id="booking-form">
       <form id="add-form">
-        <fieldset>
-          <legend>Add Booking</legend>
+        <label htmlFor="room">Select room:</label>
+        <select name="" id="room">
+          <option value="">Single Bed Room</option>
+          <option value="">Multi Bed Room</option>
+          <option value="">Family Room</option>
+        </select>
 
-          <label htmlFor="room">Room Number:</label>
-          <br />
-
-          <label htmlFor="checkIn">Check-in Date:</label>
-          <input type="date" id="checkIn" required />
-          <br />
-          <label htmlFor="checkOut">Check-out Date:</label>
-          <input type="date" id="checkOut" required />
-          <br />
+        <label htmlFor="checkIn">Check-in Date:</label>
+        <input type="date" id="checkIn" required />
+        <br />
+        <label htmlFor="checkOut">Check-out Date:</label>
+        <input type="date" id="checkOut" required />
+        <br />
+        <span>
           <button type="submit" onClick={SubmitForm}>
             Add Booking
           </button>
           <button type="reset">Reset Booking</button>
-        </fieldset>
+        </span>
       </form>
     </section>
   );
