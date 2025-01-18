@@ -1,9 +1,8 @@
-import { LoginForm, NavBar } from "../components";
+import { LoginForm } from "../components";
 
 const Login = () => {
   return (
     <>
-      <NavBar />
       Login Page
       <LoginForm />
     </>

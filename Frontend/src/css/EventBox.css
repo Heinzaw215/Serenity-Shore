@@ -1,0 +1,34 @@
+.event-box {
+  display: grid;
+  gap: 1.25rem;
+  padding: 1.25rem;
+  box-shadow: 0 0 10px  rgba(0, 0, 0, .1);
+}
+
+.event-item {
+  background-color: #fff;
+  box-shadow: 0 0 10px  rgba(0, 0, 0, .1);
+}
+
+.event-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media (min-width: 600px) {
+  .event-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .event-box {
+    grid-template-columns: (3, 1fr);
+  }
+}
+
+@media (min-width:1200px) {
+  .event-box {
+    grid-template-columns: (4, 1fr);
+  }
+}
